@@ -13,9 +13,9 @@ pip install -r requirements.txt
 ```
 
 ## Projects
-### Transformer-Based Text Classification and Fine-Tuning (BERT)
+### Transformer-Based Text Classification and FineTuning (BERT)
 
-Implemented and evaluated a transformer-based text classification system using BERT (bert-base-uncased) on the AG News dataset.
+Implemented and evaluated a transformer-based text classification system using BERT on the AG News dataset.
 
 ### Data
 Datasets are not included in this repository.
@@ -28,14 +28,14 @@ Instructions for downloading datasets are included in the notebooks.
 #### Key Components
 * Extracted frozen BERT embeddings using multiple probing strategies (CLS token, mean pooling, etc.)
 * Benchmarked KNN and multi-class logistic regression on learned representations
-* Fine-tuned all BERT parameters end-to-end using PyTorch
-* Compared probing versus full fine-tuning performance
+* Finetuned all BERT parameters end-to-end using PyTorch
+* Compared probing versus full finetuning performance
 * Visualized attention weights to analyze model behavior
 
 #### Focus Areas
 * Representation learning
 * Transfer learning
-* Transformer fine-tuning
+* Transformer finetuning
 * Attention analysis
 * Model benchmarking
 
@@ -43,7 +43,7 @@ Instructions for downloading datasets are included in the notebooks.
 
 Built and evaluated neural network architectures for image classification on the Kuzushiji-MNIST dataset.
 
-#### From-Scratch MLP Implementation
+#### From Scratch MLP Implementation
 * Implemented a multilayer perceptron in NumPy
 * Backpropagation and mini-batch stochastic gradient descent
 * Gradient checking for correctness verification
@@ -72,5 +72,5 @@ Built and evaluated neural network architectures for image classification on the
 These projects explore:
 * The impact of pretrained representations on downstream performance
 * Architectural depth and non-linearity in neural networks
-* Trade-offs between frozen embeddings and end-to-end fine-tuning
+* Trade-offs between frozen embeddings and end-to-end finetuning
 * Practical implementation of neural networks from first principles
